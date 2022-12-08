@@ -17,10 +17,10 @@ public class PlayerCrossPearlEvent extends PlayerEvent implements Cancellable {
     private static final HandlerList handlers = new HandlerList();
 
     private final Location from;
+	private Location to;
 
     private boolean cancelled;
 
-    private Location to;
 
 	public PlayerCrossPearlEvent(final Player player, final Location from, final Location to) {
 		super(player);
@@ -28,14 +28,6 @@ public class PlayerCrossPearlEvent extends PlayerEvent implements Cancellable {
 		this.to = to;
 	}
 
-	public HandlerList getHandlers() {
-		return handlers;
-	}
-	
-	public static HandlerList getHandlerList() {
-		return handlers;
-	}
-	
 	public Location getFrom() {
 		return from;
 	}
@@ -58,6 +50,14 @@ public class PlayerCrossPearlEvent extends PlayerEvent implements Cancellable {
 
 	public void setCancelled(boolean cancelled) {
 		this.cancelled = cancelled;
+	}
+
+	public HandlerList getHandlers() {
+		return handlers;
+	}
+
+	public static HandlerList getHandlerList() {
+		return handlers;
 	}
 
 }

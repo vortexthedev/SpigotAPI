@@ -9,7 +9,6 @@ public final class ServerShutdownEvent extends ServerEvent {
     private static final HandlerList handlerList = new HandlerList();
     private final Server server;
 
-    @ConstructorProperties({"server"})
     public ServerShutdownEvent(Server server) {
         this.server = server;
     }

@@ -14,7 +14,6 @@ public class EquipmentSetEvent extends Event {
     private final ItemStack previousItem;
     private final ItemStack newItem;
 
-    @ConstructorProperties({"humanEntity", "slot", "previousItem", "newItem"})
     public EquipmentSetEvent(HumanEntity humanEntity, int slot, ItemStack previousItem, ItemStack newItem) {
         this.humanEntity = humanEntity;
         this.slot = slot;
