@@ -5,9 +5,9 @@ Official Universal API for Vortex Development spigots.
 # RocketSpigot: https://www.mc-market.org/resources/22238/
 
 # How to use?
-- Clone the repository to your folder
+- Clone the repository to any folder
 - Run "mvn clean install" to publish it to your Local Maven Repo
-- Add dependency to your project before your spigot's dependency
+- Add dependency to your project before your spigot dependency
 
 Example:
 ```xml
