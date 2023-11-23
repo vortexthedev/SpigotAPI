@@ -1,9 +1,6 @@
 # SpigotAPI
 Official Universal API for Vortex Development spigots.
 
-# VortexSpigot: https://www.mc-market.org/resources/20988/
-# RocketSpigot: https://www.mc-market.org/resources/22238/
-
 # How to use?
 - Clone the repository to any folder
 - Run "mvn clean install" to publish it to your Local Maven Repo
